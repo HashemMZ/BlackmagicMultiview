@@ -16,5 +16,8 @@ By selecting each of the main screens(here named Rack1 to Rack4 and Nodal SD and
 
 To name the buttons on the GUI I used a settings.txt file that simply contains the name of device and more importantly the IP's of each device on your network.
 
+# An issue with Blackmagic Multiview 16
+During the development I saw there is a bug in switching among HD videos. The divice cannot handle the task completely and sometimes you can see some frames and writings from 4x4 view remained on the full view footage. to overcome this problem I send the commands to switch to full view twice (I saw this solves the problem) I have read on the company's website that some update for the firmware may solve this problem but I couldn't get the update because of sanctions probably! 
+
 
 
